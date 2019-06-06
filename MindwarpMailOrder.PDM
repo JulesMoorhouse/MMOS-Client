@@ -1,0 +1,215 @@
+[Root]
+Most Recent Package=MMOS Client Setup
+
+
+[Package|MMOS Client Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\MOS\Client\Package
+
+[Package|MMOS Client Setup|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Text=Yes
+Jet 2.x=Yes
+
+[Package|MMOS Client Setup|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|MMOS Client Setup|Files Found]
+
+[Package|MMOS Client Setup|Files Released]
+
+[Package|MMOS Client Setup|Missing Dependency Information]
+C:\Windows\SysWOW64\dbgrid32.ocx=
+C:\Program Files (x86)\Common Files\System\ado\msadox.dll=
+C:\Windows\System32\MSLDBUSR.DLL=
+D:\MOS\Loader\Loader.exe=
+C:\Windows\SysWOW64\MSDERUN.DLL=
+
+[Package|MMOS Client Setup|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCAL.OCX=
+
+[Package|MMOS Client Setup|Files Added]
+d:\mos\client\layouts\adaminvo.rpt=
+d:\mos\client\layouts\hscardse.rpt=
+d:\mos\client\layouts\pfmanife.rpt=
+d:\mos\client\layouts\stdadvad.rpt=
+d:\mos\client\layouts\stdadvic.rpt=
+d:\mos\client\layouts\stdbatpi.rpt=
+d:\mos\client\layouts\stdchequ.rpt=
+d:\mos\loader\loader.exe=
+D:\MOS\Help\Client\MMOS.chm=
+
+[Package|MMOS Client Setup|Files Removed]
+
+[Package|MMOS Client Setup|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Windows\System32\MSLDBUSR.DLL=Yes
+C:\Windows\System32\hhctrl.ocx=Yes
+C:\Windows\System32\itss.dll=Yes
+C:\Windows\System32\itircl.dll=Yes
+C:\Windows\System32\hh.exe=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msadox.dll=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSChrt20.ocx=Yes
+C:\Windows\SysWOW64\MSDatGrd.ocx=Yes
+C:\Windows\SysWOW64\dbgrid32.ocx=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\System32\MSCAL.OCX=Yes
+C:\Windows\System32\MSEXCL35.DLL=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Windows\System32\MSTEXT35.DLL=Yes
+C:\Windows\System32\MSXBSE35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\MOS\Client\Layouts\AdamInvo.rpt=Yes
+D:\MOS\Client\Layouts\HSCardSe.rpt=Yes
+D:\MOS\Client\Layouts\PFManife.rpt=Yes
+D:\MOS\Client\Layouts\StdAdvAd.rpt=Yes
+D:\MOS\Client\Layouts\StdAdvic.rpt=Yes
+D:\MOS\Client\Layouts\StdBatPi.rpt=Yes
+D:\MOS\Client\Layouts\StdChequ.rpt=Yes
+D:\MOS\Client\MMOS.exe=Yes
+D:\MOS\Loader\Loader.exe=Yes
+C:\Windows\SysWOW64\MSDERUN.DLL=Yes
+D:\MOS\Help\Client\MMOS.chm=Yes
+D:\MOS\Help\Client\MMOS.chi=Yes
+
+[Package|MMOS Client Setup|Configure Registry Files]
+Applicable=No
+
+[Package|MMOS Client Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|MMOS Client Setup|Install Locations]
+D:\MOS\Temp\MMOS.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSLDBUSR.DLL=$(WinSysPath)
+C:\Windows\System32\hhctrl.ocx=$(WinSysPath)
+C:\Windows\System32\itss.dll=$(WinSysPath)
+C:\Windows\System32\itircl.dll=$(WinSysPath)
+C:\Windows\System32\hh.exe=$(WinSysPath)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msadox.dll=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSChrt20.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSDatGrd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\dbgrid32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\MSCAL.OCX=$(WinSysPath)
+C:\Windows\System32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Windows\System32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MOS\Client\Layouts\AdamInvo.rpt=$(AppPath)\Layouts
+D:\MOS\Client\Layouts\HSCardSe.rpt=$(AppPath)\Layouts
+D:\MOS\Client\Layouts\PFManife.rpt=$(AppPath)\Layouts
+D:\MOS\Client\Layouts\StdAdvAd.rpt=$(AppPath)\Layouts
+D:\MOS\Client\Layouts\StdAdvic.rpt=$(AppPath)\Layouts
+D:\MOS\Client\Layouts\StdBatPi.rpt=$(AppPath)\Layouts
+D:\MOS\Client\Layouts\StdChequ.rpt=$(AppPath)\Layouts
+D:\MOS\Client\MMOS.exe=$(AppPath)
+D:\MOS\Loader\Loader.exe=$(AppPath)
+C:\Windows\SysWOW64\MSDERUN.DLL=$(WinSysPath)
+D:\MOS\Help\Client\MMOS.chm=$(AppPath)
+D:\MOS\Help\Client\MMOS.chi=$(AppPath)
+
+[Package|MMOS Client Setup|Configure Shared Files]
+Applicable=Yes
+D:\MOS\Temp\MMOS.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\MOS\Client\Layouts\AdamInvo.rpt=No
+D:\MOS\Client\Layouts\HSCardSe.rpt=No
+D:\MOS\Client\Layouts\PFManife.rpt=No
+D:\MOS\Client\Layouts\StdAdvAd.rpt=No
+D:\MOS\Client\Layouts\StdAdvic.rpt=No
+D:\MOS\Client\Layouts\StdBatPi.rpt=No
+D:\MOS\Client\Layouts\StdChequ.rpt=No
+D:\MOS\Client\MMOS.exe=No
+D:\MOS\Loader\Loader.exe=No
+D:\MOS\Help\Client\MMOS.chm=No
+D:\MOS\Help\Client\MMOS.chi=No
+
+[Package|MMOS Client Setup|Distribution]
+Type=single
+Size=
+Title=MMOS
+
+[Package|MMOS Client Setup|Package]
+PackageFolder=D:\MOS\Client\Package
+ProjectFolder=D:\MOS\Client
+ServerSideCab=
+File1=D:\MOS\Client\Package\setup.exe
+File2=D:\MOS\Client\Package\Setup.Lst
+File3=D:\MOS\Client\Package\MMOS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MMOS Client Setup|IconGroups]
+Group0=MMOS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|MMOS Client Setup|MMOS]
+Icon1=Loader.exe /X
+Title1=MMOS
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Loader.exe /ADMIN
+Title2=MMOS - Admin
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=Loader.exe /REPORTING
+Title3=MMOS - Reporting
+StartIn3=$(AppPath)
+Key3=Icon4
