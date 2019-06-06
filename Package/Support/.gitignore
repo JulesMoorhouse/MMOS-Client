@@ -2,7 +2,7 @@ Loader.exe
 MMOS.exe
 Setup.rpt
 Setup.inf
-*.dll
-*.ocx
-*.tlb
+#*.dll
+#*.ocx
+#*.tlb
 *.zip
