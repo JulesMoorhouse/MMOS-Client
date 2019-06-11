@@ -30,6 +30,8 @@ Here's a selection of screenshots from the MMOS program.
 For more details please see the full MMOS Client help file.
 https://github.com/JulesMoorhouse/MMOS-Shared/blob/master/Help/Client/MMOS.chm?raw=true
 
+Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
+
 ## Contributing
 Contributions for bug fixing or improvements are welcomed. Feel free to submit a <a href="https://github.com/JulesMoorhouse/MMOS/pulls">pull request</a>. If you would like to create an <a href="https://github.com/JulesMoorhouse/MMOS/issues">issue</a>, please do so <a href="https://github.com/JulesMoorhouse/MMOS/issues">here</a>.
 
